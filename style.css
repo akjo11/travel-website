@@ -69,9 +69,15 @@ img {
     background: #f1f1f1;
     margin-bottom: 4rem;
     
-    background:white
+    background:white;
+    border-radius: 20px;
     
     
+}
+
+.card:hover{
+
+    transform: scale(1.04);
 }
 
 .card h3{
@@ -131,13 +137,12 @@ img {
 .text-center {
 
     margin-bottom: 4rem;
+    margin-top: 2rem;
+    color: yellow
 
 }
 
-.where-to {
 
-    color: white;
-}
 
 #ttd {
 
@@ -169,8 +174,8 @@ img {
 
 .text-center:hover {
 
-    color: white;
-    text-shadow: black;
+    color: lightblue
+    
     
 }
 
@@ -209,6 +214,10 @@ img {
         font-size: 30px;
     }
 
+    .card-container{
+        flex-wrap: wrap;
+    }
+
    
 }
 
@@ -231,6 +240,79 @@ img {
 }
 
 }
+
+.card-container {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.ttd-card {
+
+    background: white;
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.ttd-card:hover{
+
+    background-color: grey;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    
+
+}
+.card-image {
+
+    
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+
+.america1 {
+    background-image: url('images/golden-gate.jpg');
+}
+.america2 {
+    background-image: url('images/miami-beach.jpg');
+}
+.america3 {
+    background-image: url('images/Los-Angeles.jpeg');
+}
+.america4 {
+    background-image: url('images/las-vegas.jpeg');
+}
+
+
+.ttd-links a {
+ 
+     color: black;
+     font-family: inherit;
+     padding-bottom: 20px;
+  
+}
+
+.ttd-links a:hover {
+
+  color: white;
+}
+
+
+
+
+
+
+
 
 
     
